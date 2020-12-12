@@ -1,0 +1,13 @@
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.contacts__icon {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  color: gray;
+}

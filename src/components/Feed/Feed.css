@@ -1,0 +1,14 @@
+.feed {
+  flex: 0.3;
+  display: flex;
+  padding: 30px 10px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+@media (max-width: 1128px) {
+  .feed {
+    flex: 1;
+  }
+}

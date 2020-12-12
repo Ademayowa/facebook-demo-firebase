@@ -1,0 +1,34 @@
+.birthdays {
+  flex: 1;
+  display: flex;
+}
+
+.birthdays__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.birthdays__content > h5 {
+  margin-top: -30px;
+  margin-left: 35px;
+}
+
+.birthdays__content > h4 {
+  font-size: medium;
+  font-weight: 600;
+  color: gray;
+}
+
+.birthdays__icon {
+  display: flex;
+  color: #1771e6;
+  font-size: xx-large !important;
+  margin-top: 10px;
+}
+
+.birthdays__content > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin: 14px 0;
+}

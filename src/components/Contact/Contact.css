@@ -1,0 +1,27 @@
+.contact {
+  /* display: flex; */
+  flex: 0.3;
+  padding: 30px 10px;
+}
+
+.contacts__userDetails {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.contacts__title {
+  font-size: medium;
+  font-weight: 600;
+  color: gray;
+}
+
+.contacts__userDetails > h4 {
+  margin-left: 10px;
+}
+
+@media (max-width: 1128px) {
+  .contact {
+    display: none;
+  }
+}

@@ -1,0 +1,102 @@
+.login {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f2f5;
+  /* height: 100vh; */
+}
+
+.login__left {
+  padding: 100px 20px;
+  flex: 1;
+}
+
+.login__logo > img {
+  height: 200px;
+}
+
+.login__text > h2 {
+  font-size: 30px;
+  margin-top: -60px;
+  margin-left: 30px;
+  color: #353536;
+}
+
+.login__right {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 20px;
+  margin-bottom: 100px;
+}
+
+.login__card > .MuiButton-root {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.login__card > button {
+  width: 460px;
+  background-color: #2e81f4;
+  color: #fff;
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.login__card > button:hover {
+  color: black;
+}
+
+.login__card {
+  background-color: #ffff;
+  border-radius: 15px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  width: 90%;
+}
+
+.login__rightText > h4 {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.login__bottom {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .login__card > button {
+    display: flex !important;
+    width: auto;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute;
+    bottom: 230px;
+  }
+  .login__bottom > p {
+    display: none;
+  }
+  .login__card {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .login {
+    display: grid;
+    justify-content: center;
+  }
+  .login__left {
+    margin-top: -100px;
+  }
+  .login__right {
+    margin-top: -130px;
+    justify-content: center;
+  }
+  .login__card > button {
+    margin-left: 30px;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
